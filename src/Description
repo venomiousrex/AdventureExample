@@ -1,0 +1,16 @@
+We will create an "adventure" game using the screens 
+from the original Legend of Zelda. The folder zelda has 
+all of these screens broken up for you as gif images.
+These images are named Tile_RX_CYY, where the X is
+replaced by the row of the image, and Y is the column, with
+(0,0) being the top left hand corner of the map. There is
+a text file called titles.txt that describes what directions
+you are allowed to move when you are on a specific screen.
+A line in the textfile is as follows:
+Tile_R8_C8 TRUE TRUE FALSE TRUE
+and follows the format
+tile_name go_north go_east go_south go_west
+
+Using this information, create a GUI that can navigate
+the world of Zelda using 4 buttons to move North,
+South, East, and West.
