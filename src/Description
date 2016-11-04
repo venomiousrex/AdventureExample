@@ -12,5 +12,5 @@ and follows the format
 tile_name go_north go_east go_south go_west
 
 Using this information, create a GUI that can navigate
-the world of Zelda using 4 buttons to move North,
+the world of Hyrule using 4 buttons to move North,
 South, East, and West.
